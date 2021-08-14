@@ -1,7 +1,8 @@
 class Stack {
+    
+    int currentSize = 0;
     int maxSize;
     int[] values;
-    int currentSize = 0;
 
     public Stack(int maxSize) {
         this.maxSize = maxSize;
